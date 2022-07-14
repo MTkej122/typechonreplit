@@ -10,3 +10,23 @@ unzip butterfly_Release1.5.3-fix.zip
 #after download if you dont have reCAPTCHA plugin del file usr/themes/butterfly/functions.php line 1528-1529 
 rm -rf butterfly_Release1.5.3-fix.zip
 #when all down run run bottom
+
+# Snow 插件
+ cd usr/plugins/
+ mkdir Snow
+ cd Snow
+ git clone https://github.com/journey-ad/Snow-Typecho-Plugin.git && mv -b Snow-Typecho-Plugin/* ./ && mv -b Snow-Typecho-Plugin/.[^.]* ./ && rm -rf *~ && rm -rf Snow-Typecho-Plugin
+
+# 登录美化
+cd ../
+mkdir LoginDesigner
+cd LoginDesigner
+git clone https://github.com/Sayafx/LoginDesigner/ && mv -b LoginDesigner/* ./ && mv -b LoginDesigner/.[^.]* ./ && rm -rf *~ && rm -rf LoginDesigner
+
+# 蛛网
+
+cd ../
+mkdir DynamicLines
+cd DynamicLines
+git clone https://github.com/Sayafx/DynamicLines-typecho-plugin.git && mv -b DynamicLines-typecho-plugin/* ./ && mv -b DynamicLines-typecho-plugin/.[^.]* ./ && rm -rf *~ && rm -rf DynamicLines-typecho-plugin
+https://github.com/Sayafx/DynamicLines-typecho-plugin.git
