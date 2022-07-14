@@ -29,4 +29,4 @@ cd ../
 mkdir DynamicLines
 cd DynamicLines
 git clone https://github.com/Sayafx/DynamicLines-typecho-plugin.git && mv -b DynamicLines-typecho-plugin/* ./ && mv -b DynamicLines-typecho-plugin/.[^.]* ./ && rm -rf *~ && rm -rf DynamicLines-typecho-plugin
-https://github.com/Sayafx/DynamicLines-typecho-plugin.git
+
