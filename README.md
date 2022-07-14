@@ -19,9 +19,9 @@ Fork自[valetzx/typechonreplit](https://github.com/valetzx/typechonreplit)，由
 
 原作者Butterfly主题移植地址失效，已更换
 添加了下列插件
-[LoginDesigner](https://github.com/jrotty/LoginDesigner)
-[Snow-Typecho-Plugin](https://github.com/journey-ad/Snow-Typecho-Plugin)
-[DynamicLines-typecho-plugin](https://github.com/1379/DynamicLines-typecho-plugin)
+- [LoginDesigner](https://github.com/jrotty/LoginDesigner)
+- [Snow-Typecho-Plugin](https://github.com/journey-ad/Snow-Typecho-Plugin)
+- [DynamicLines-typecho-plugin](https://github.com/1379/DynamicLines-typecho-plugin)
 
 PS. 插件和主题自行启用，Snow插件推荐设置，观感较好。
 ![Snow设置](https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/dafa22094fc8129879ee352d2763bd41299108a8.png)
