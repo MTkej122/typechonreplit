@@ -12,10 +12,10 @@ rm -rf butterfly_Release1.5.3-fix.zip
 #when all down run run bottom
 
 # Snow 插件
- cd usr/plugins/
- mkdir Snow
- cd Snow
- git clone https://github.com/journey-ad/Snow-Typecho-Plugin.git && mv -b Snow-Typecho-Plugin/* ./ && mv -b Snow-Typecho-Plugin/.[^.]* ./ && rm -rf *~ && rm -rf Snow-Typecho-Plugin
+cd usr/plugins/
+mkdir Snow
+cd Snow
+git clone https://github.com/journey-ad/Snow-Typecho-Plugin.git && mv -b Snow-Typecho-Plugin/* ./ && mv -b Snow-Typecho-Plugin/.[^.]* ./ && rm -rf *~ && rm -rf Snow-Typecho-Plugin
 
 # 登录美化
 cd ../
