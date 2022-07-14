@@ -9,10 +9,12 @@ wget https://github.com/wehaox/Typecho-Butterfly/releases/download/1.5.3/butterf
 unzip butterfly_Release1.5.3-fix.zip
 #after download if you dont have reCAPTCHA plugin del file usr/themes/butterfly/functions.php line 1528-1529 
 rm -rf butterfly_Release1.5.3-fix.zip
-#when all down run run bottom
+
+# 回到根目录
+cd ../
 
 # Snow 插件
-cd usr/plugins/
+cd plugins
 mkdir Snow
 cd Snow
 git clone https://github.com/journey-ad/Snow-Typecho-Plugin.git && mv -b Snow-Typecho-Plugin/* ./ && mv -b Snow-Typecho-Plugin/.[^.]* ./ && rm -rf *~ && rm -rf Snow-Typecho-Plugin
