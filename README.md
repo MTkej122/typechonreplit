@@ -6,7 +6,7 @@
 
 将以下代码粘贴至Replit Shell后回车
 
-`git clone https://github.com/Sayafx/typechonreplit.git && mv -b typechonreplit/* ./ && mv -b typechonreplit/.[^.]* ./ && rm -rf *~ && rm -rf typechonreplit`
+`git clone https://github.com/MTkej122/typechonreplit.git && mv -b typechonreplit/* ./ && mv -b typechonreplit/.[^.]* ./ && rm -rf *~ && rm -rf typechonreplit`
 
 当加载完 Detected change in environment, reloading shell...
 在Shell输入`sh main.sh`初始化，初始化完成后点击绿色 ▶ Run 运行
