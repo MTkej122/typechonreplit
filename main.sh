@@ -1,7 +1,7 @@
 rm -rf index.php
 rm -rf database.sqlite
 rm -rf README.md
-wget https://github.com/typecho/typecho/releases/download/v1.2.0/typecho.zip
+wget https://github.com/MTkej122/typecho/releases/download/1.0/typecho.zip
 unzip typecho.zip
 rm -rf typecho.zip
 cd usr/themes
